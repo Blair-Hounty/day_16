@@ -26,12 +26,31 @@ nav{
     color: black;
     
 }
+.to{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 90px;
+
+  }
+.to ul li{
+    display: inline-block;
+}
+.to ul li a{
+    
+    padding: 15px 16px;
+}
+.f a{
+    color: black;
+    text-decoration: none;
+}
 .to button{
     background-color: orange;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
-    margin-left:900px;
+    font-size: 15px;
+    
 }
 .q{
     background-color: white;
@@ -119,5 +138,142 @@ nav{
     padding: 15px 30px;
     margin-top: 50px;
   }
+  .yes{
+    display: flex;
+    padding-top: 50px;
+    gap: 40px;
+    
+}
+.yes img{
+    width: 750px;
+    padding-left: 40px;
+}
+.xo h1{
+    font-size: 30px;
+}
+.xo p{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.xo{
+    padding-top: 30px;
+}
 
+
+.xo button{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+            
+.love{
+    display: flex;
+    padding-top: 50px;
+    gap: 40px;
+                
+ } 
+ .love img{
+      width: 800px;
+     padding-left: 40px;
+ }
+.hen h1{
+    font-size: 30px;
+ }
+.hen p{
+     padding-top: 20px;
+     padding-right: 20px;
+ }
+ .hen{
+    padding-top: 30px;
+ }
+ .u{
+     font-40px: 10px;
+ }
+.hen button{
+ background-color: orange;
+ border: none;
+ border-radius: 5px;
+ padding: 15px 30px;
+margin-top: 50px;
+}
+.mon{
+    display: flex;
+    justify-items: center;
+    gap:150px ;
+    padding: 60px 30px;
+    margin-left: 50px;
+}
+.mon p{
+    padding: 5px;
+    cursor: pointer;
+}
+.mon h2{
+    padding-bottom: 10px;
+}
+.tue {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.tue img{
+    padding: 10px;
+    cursor: pointer;
+}
+.red{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.red p{
+    cursor: pointer;
+}
+.class{
+    display: flex;
+    padding: 10px;
+
+}
+.class p{
+    padding: 5px 15px;
+}
+.let{
+    display: flex;
+    padding: 10px;
+}
+.let p{
+    padding: 0px 15px;
+}
+.ease{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 40px;
+    margin-bottom: 200px;
+
+}
+.ease img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    height: 200px;
+}
+.red p::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: darkgoldenrod;
+    transition: all.45s ease;
+}
+.red p:hover::after{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}
 
