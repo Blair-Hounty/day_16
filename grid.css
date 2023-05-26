@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+section{
+    padding: 20px 5%;
+}
+.miss{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.miss div img{
+    width: 100%;
+
+
+}
+.kol{
+    position: relative;
+}
+
+/* .fro {
+    position: relative; */
+
+.we{
+    color: rgb(102, 218, 238);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(68, 77, 80, 0.8); 
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+}
+.fro img{
+    width: 400px;
+    height: 350px;
+}
+

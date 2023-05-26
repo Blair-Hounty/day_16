@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+    
+}
+ header{
+    background: linear-gradient(to right,rgba(141, 29, 29, 0.6),rgb(0,0,0,0.6));
+ }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lot{
+    display: flex;
+    gap: 20px; 
+    justify-items: center; 
+    padding: 15px 16px;
+}
+.lot ul li{
+    display: inline-block;
+    padding: 15px 16px;
+}
+.lot ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.from{
+    display: flex;
+    padding: 20px 16px; 
+    text-align: center; 
+    justify-items: center;
+}
+.from p a{
+    text-decoration: none; 
+    color: #000;
+    padding-right: 40px;
+    font-weight:  bold;
+    text-transform: capitalize;
+    padding-top: 60px;
+}
+.from button{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.in{
+    background-color: white; 
+    font-weight: bold;
+
+}
+.out{
+    color: beige;
+    background-color: #000;
+}
+.one {
+   display: flex; 
+   padding: 20px 15px; 
+}
+.one img{
+    width: 600px;
+}
+.kot{
+    background-color: rgb(4, 83, 46);
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 120px;
+    font-size: 25px;
+    width: 900px;
+}
+.kot h1{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.kot button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: rgb(4, 83, 46);
+    margin-top: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.second{
+    display: flex; 
+    padding: 20px 15px; 
+ }
+ .second img{
+     width: 600px;
+ }
+ .has{
+     background-color: rgb(222, 228, 225);
+     text-align: center;
+     color: rgb(2, 25, 15);
+     padding-top: 120px;
+     font-size: 25px;
+     width: 8900px;
+ }
+ .has h1{
+     padding-bottom: 30px;
+     font-size: 50px;
+ }
+ .has button{
+     padding: 10px 20px;
+     border-radius: 30px;
+     border: 1px solid rgb(2, 15, 8);
+     background-color: rgb(227, 230, 228);
+     margin-top: 30px;
+     color: rgb(2, 15, 8);
+     font-weight: bold;
+ }
+ .third{
+    display: flex; 
+    padding: 20px 15px; 
+ }
+ .third img{
+     width: 600px;
+ }
+ .gon{
+     background-color: rgb(213, 237, 128);
+     text-align: center;
+     color: rgb(2, 25, 15);
+     padding-top: 120px;
+     font-size: 25px;
+     width: 8900px;
+ }
+ .gon h1{
+     padding-bottom: 30px;
+     font-size: 50px;
+ }
+ .gon button{
+     padding: 10px 20px;
+     border-radius: 30px;
+     border: 1px solid rgb(2, 15, 8);
+     background-color: rgb(213, 237, 128);
+     margin-top: 30px;
+     color: rgb(2, 15, 8);
+     font-weight: bold;
+     font-size: 15px;
+ }
+ .fourth{
+    display: flex; 
+    padding: 20px 15px; 
+ }
+ .fourth img{
+     width: 600px;
+ }
+ .red{
+     background-color: rgb(244, 239, 80);
+     text-align: center;
+     color: rgb(2, 25, 15);
+     padding-top: 120px;
+     font-size: 25px;
+     width: 8900px;
+ }
+ .red h1{
+     padding-bottom: 30px;
+     font-size: 50px;
+ }
+ .red button{
+     padding: 10px 20px;
+     border-radius: 30px;
+     border: 1px solid rgb(2, 15, 8);
+     background-color: rgb(244, 239, 80);
+     margin-top: 30px;
+     color: rgb(2, 15, 8);
+     font-weight: bold;
+     font-size: 15px;
+ }
+ .we p{
+    font-size: 13px;
+    width: 700px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 40px;
+ }
+ .rat{
+    display: flex;
+    gap: 40px;
+    padding: 20px; 
+    justify-content: center; 
+    color: gray;
+ }
+ .rat p:hover{
+    color: #000;
+ }
+ .rat h1{
+    padding-bottom: 40px; 
+    color: #000;
+    font-weight: normal;
+ }
+ .rat p{
+    padding-bottom: 30px;
+ }
+ button:hover{
+    background-color: rgb(26, 31, 18);
+    color:white;
+ } 
+ .mon img{
+    padding: 20px 10px;
+ }
+ .mon {
+    padding: 10px 30px;
+ }
+ .pot ul li{
+    display: inline-block;
+    padding: 0px 15px;
+ }
+ .pot ul li a{
+    text-decoration: none; 
+    color: black; 
+    border-left: 1px solid rgb(74, 72, 72);
+     padding-left: 20px;
+
+ }
+ .pot ul li a::after{
+    content: ''; 
+    width: 0;
+    height: 2px; 
+    background-color: #000; 
+    display: block;
+
+ }
+ .pot ul li a:hover::after{
+    width: 100%;
+ }
+
+ footer p{
+    padding: 20px ; 
+    color: gray;
+ }
