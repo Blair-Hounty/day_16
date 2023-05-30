@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.you{
+    width: 400px;
+    box-shadow:0 0 5px 0 rgba(151, 34, 34, 0.5) ;
+    margin: 8% auto 0;
+    text-align: center;
+    background: linear-gradient(to right,rgba(23, 197, 213, 0.7),rgba(246, 17, 158, 0.7));
+}
+body{
+    background-color:black;
+
+}
+.you h1{
+    margin-bottom: 30px;
+    font-style: oblique;
+}
+.are{
+    border-radius: 15px; 
+    padding: 5px; 
+    margin: 10px 0; 
+    width: 80%; 
+    border: 1px solid rgb(107, 102, 102);
+    outline: none;
+}
+button{
+    color: white;
+    background-color:rgb(87, 4, 79);
+    border-radius: 20px;
+    padding: 10px ;
+    border: none;
+    width: 60%; 
+    margin: 10px 0; 
+    font-size: 15px;
+     outline: none;
+    cursor: pointer;
+}
+.wen{
+    background-color: rgb(3, 50, 95);
+}
+hr{
+    margin-top: 15px; 
+    width: 80%;
+    margin-left: 30px;
+}
+.in{
+    width: 40px;
+    margin: -19px auto 10px;
+
+}
+.select{
+    width: 100%;
+    border-radius: 15px; 
+    padding: 5px; 
+    margin: 10px 0;
+    border: 1px solid rgb(107, 102, 102);
+    outline: none;
+}
+.on{
+    margin: 15px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,8 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+.inputs{
+    padding: 100px 10%;
+}
